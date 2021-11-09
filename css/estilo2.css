@@ -1,8 +1,17 @@
 body{
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
 }
 header{
     box-shadow: 0 1px 20px -0px rgba(159, 159, 159, 0.65);
+    position: relative;
+}
+header > nav{
+    background-color: #c2185b;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 0px;
 }
 header > nav > ul{
     padding: 0;
